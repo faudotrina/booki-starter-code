@@ -58,6 +58,34 @@ a {
     color: var(--main-bg-color)
 }
 
+.hebergements-and-populaires .option a {
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+.boutton1 {
+    border-radius: 0px 10px 10px 0px;
+    border-color: #0065fc;
+    background-color: #0065fc;
+}
+
+#infologement {
+    border: solid;
+    border-color: #e1e1e1;
+    padding: 0.5em;
+    border-radius: 75% 75% 75% 75%;
+    justify-items: center;
+    margin-block-end: 20px;
+}
+
+#infoplus {
+    margin-inline-start: 15px;
+}
+
+.section p {
+    margin-bottom: 2em;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -71,14 +99,123 @@ a {
     box-sizing: border-box;
 }
 
+section form i {
+    background-color: #f2f2f2;
+    border-radius: 8px 0px 0px 8px;
+    padding: 3px;
+}
+
+.plus {
+    display: block;
+    font-weight: bold;
+    padding: 20px;
+    padding-block-start: 2em;
+}
+
+/****** formulaires ***********/
+
+.formul {
+    display: flex;
+    align-items: center;
+}
+
+#country {
+    height: 35px;
+    border-color: #f2f2f2;
+}
+
+.boutton1 {
+    height: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+input::placeholder {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+#alpha {
+    color: black;
+    width: 35px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+
+/****** Filtres ***********/
+section ul li {
+    display: inline;
+}
+
+ul span {
+    border: solid;
+    border-radius: 80px;
+    border-width: 2px;
+    border-color: #e3e3e3;
+    padding: 10px;
+    margin-left: 1em;
+}
+
+.orange {
+    padding: 0px;
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+    font-weight: bold;
+}
+
+ul span:hover {
+    background-color: #deebff;
+}
+
+section span .info {
+    display: inline;
+}
+
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
 }
 
+.hebergements-cards a {
+    flex: 1 0 27%;
+}
+
+.hebergements-cards {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.hebergements-cards img {
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card {
+    margin-top: 33px;
+}
+
+.hebergements-cards .card-txt {
+    padding-left: 15px;
+}
+
+.hebergements-cards .card-rating {
+    padding-left: 15px;
+}
+
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+    margin-inline-start: 62px;
+    padding-block-start: 2em;
 }
 
 .populaires-title {
@@ -121,8 +258,106 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+
+.pomme {
+    margin-top: 3em;
+    margin-inline-start: 64px;
+}
+
+.activites {
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: 10px;
+    flex: 1 0 20px;
+    gap: 20px;
+}
+
+.activites-cards img {
+    object-fit: cover;
+    width: 18em;
+    height: 25em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites p {
+    font-weight: bold;
+    margin: 5px;
+    padding: 20px;
+}
+
+.activites-cards {
+    flex: 1 0 20px;
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.activites h3 {
+    margin-inline-start: 1em;
+    padding-bottom: 25px;
+}
 
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoxs {
+    height: 20px;
+}
+
+.menu li {
+    list-style-type: none;
+    /* display: inline;
+    margin-left: 72px; */
+}
+
+.menu ul {
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+
+.menu a:hover {
+    text-decoration: overline;
+    text-decoration-color: blue;
+    color: blue;
+}
+
+.footer section {
+    list-style-type: none;
+    display: inline;
+    margin-left: 72px;
+}
+
+.box {
+    display: flex;
+    background-color: var(--main-bg-color);
+    margin-top: 72px;
+    padding: 40px;
+}
+
+.box article {
+    flex: 1;
+}
+
+.box ul {
+    padding: 0;
+}
+
+.box li {
+    list-style-type: none;
+    line-height: 32px;
+}
+
+.box a:hover {
+    text-decoration: underline;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
