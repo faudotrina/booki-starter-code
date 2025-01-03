@@ -104,7 +104,7 @@ a {
 }
 
 .section p {
-    margin-top: none;
+    margin-top: 0;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -328,7 +328,7 @@ section span .info {
     justify-content: center;
     margin: 30px;
     display: flex;
-    flex-wrap: 10px;
+    flex-wrap: wrap;
     flex: 1 0 20px;
     gap: 30px;
 }
@@ -506,7 +506,7 @@ section span .info {
         border-top: none;
         border-bottom: 3px solid blue;
         padding-bottom: 15px;
-        margin: none;
+        margin: 0;
     }
 
     #country {
