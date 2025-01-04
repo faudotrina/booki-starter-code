@@ -172,8 +172,8 @@ input::placeholder {
 
 #alpha {
     color: black;
-    width: 50px;
-    height: 49px;
+    width: 80px;
+    height: 48px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     border: 1px;
@@ -522,7 +522,7 @@ footer h2 {
     }
 
     .menu {
-        margin-left: -60px;
+        margin-left: -40px;
     }
 
     .menu ul a {
@@ -539,11 +539,11 @@ footer h2 {
     }
 
     #country {
-        height: 49px;
+        height: 50px;
         border: none;
         border-top: 1px solid #F2F2F2;
         border-bottom: 1px solid #F2F2F2;
-        width: 335px;
+        width: 100%;
     }
 
     .boutton1 {
@@ -594,6 +594,7 @@ footer h2 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+        padding-bottom: 10px;
     }
 
     .orange li {
@@ -711,6 +712,7 @@ footer h2 {
         font-weight: bold;
         padding: 20px;
         padding-top: 40px;
+        padding-left: 0;
     }
 
     .activites {
