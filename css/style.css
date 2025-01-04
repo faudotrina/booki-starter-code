@@ -642,6 +642,12 @@ footer h2 {
         padding-right: 130px;
     }
 
+    .section-title-gris {
+        font-size: 22px;
+        padding-left: 15px;
+        margin: 5px 0px 10px 0px;
+    }
+
     .hebergements {
         order: 2;
     }
@@ -649,6 +655,10 @@ footer h2 {
     .populaires {
         order: 1;
         padding: 30px 20px 30px 20px;
+    }
+
+    .populaires-title {
+        margin-right: -20px;
     }
 
     .populaires-cards {
