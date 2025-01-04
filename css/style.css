@@ -446,11 +446,11 @@ footer h2 {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .activites-cards img {
@@ -470,7 +470,8 @@ footer h2 {
     }
 
     .titreorange {
-        display: block; /* Désactive le flexbox en mode mobile */
+        display: block;
+        /* Désactive le flexbox en mode mobile */
     }
 
     .titreorange h2 {
@@ -494,7 +495,9 @@ footer h2 {
         overflow-x: hidden;
     }
 
-    header, footer, main {
+    header,
+    footer,
+    main {
         width: 100%;
         /* Assure une largeur de 100% */
     }
@@ -504,14 +507,22 @@ footer h2 {
         border-bottom: 1px solid #D9D9D9;
     }
 
+    #secun {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #secdeux {
+        padding: 0px 20px 0px 20px;
+    }
+
     .logoxs {
         font-size: 19px;
         padding: 30px;
     }
 
     .main-container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0;
     }
 
     .pomme {
@@ -622,14 +633,13 @@ footer h2 {
 
     section p {
         display: flex;
-        margin: 10px 0px 10px 0px
+        margin: 10px 0px 10px 0px;
     }
 
     .section-title {
         font-size: 22px;
         padding-bottom: 10px;
-        padding-left: 15px;
-        padding-right: 100px;
+        padding-right: 130px;
     }
 
     .hebergements {
@@ -668,6 +678,10 @@ footer h2 {
         margin: 10px 0px 0px 0px;
     }
 
+    .hebergements-cards .card-subtitle {
+        font-size: 14px;
+    }
+
     .hebergements-and-populaires .hebergements {
         background-color: white;
         border-radius: 20px;
@@ -680,12 +694,13 @@ footer h2 {
     }
 
     .hebergements-and-populaires .populaires {
-        padding-left: 0px;
+        padding-left: 10px;
         margin-top: 15px;
+        padding-right: 40px;
     }
 
     .hebergements-and-populaires .hebergements {
-        padding: 35px 18px 0px 0px;
+        padding: 35px 35px 0px 20px;
     }
 
     .hebergements-and-populaires section {
@@ -712,6 +727,7 @@ footer h2 {
         padding: 20px;
         padding-top: 40px;
         padding-left: 0;
+        font-size: 18px;
     }
 
     .activites {
@@ -722,9 +738,7 @@ footer h2 {
 
     .box {
         display: flex;
-        padding: 30px;
         flex-direction: column;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding: 15px 20px 0px 20px;
     }
 }
