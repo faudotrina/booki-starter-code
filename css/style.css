@@ -329,7 +329,6 @@ section span .info {
     justify-content: center;
     margin: 30px;
     display: flex;
-    flex-wrap: wrap;
     gap: 30px;
 }
 
