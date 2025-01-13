@@ -42,7 +42,7 @@ a {
 }
 
 .section-title {
-    margin: 0;
+    margin: 10px 0px 30px 0px;
     font-size: 22px;
 }
 
@@ -259,10 +259,6 @@ section span .info {
     border-top-right-radius: 20px;
 }
 
-.hebergements-cards .card {
-    margin-top: 33px;
-}
-
 .hebergements-cards .card-txt {
     padding-left: 15px;
 }
@@ -283,9 +279,19 @@ section span .info {
     align-items: center;
 }
 
+.populaires-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+}
+
+.section-title-gris {
+    font-size: 22px;
+    margin: 10px 0px 30px 0px;
 }
 
 .populaires-cards img {
@@ -504,7 +510,6 @@ footer h2 {
 
     header {
         flex-direction: column;
-        border-bottom: 1px solid #D9D9D9;
     }
 
     #secun {
@@ -532,21 +537,37 @@ footer h2 {
     }
 
     .menu {
-        margin-left: -40px;
+        width: 100%;
+    }
+
+
+    /* menu version mobile bordure bleu */
+    .menu ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 0;
+        text-align: center;
+        gap: 0;
     }
 
     .menu ul a {
+        display: block;
+        border-bottom: 3px solid #D9D9D9;
         font-size: 16px;
         font-weight: 400;
         line-height: 18px;
+        padding: 20px;
     }
 
     .menu ul a:hover {
         border-top: none;
         border-bottom: 3px solid blue;
-        padding-bottom: 15px;
+        padding: 0;
         margin: 0;
+        padding: 20px;
     }
+
+    /***********************************/
 
     #country {
         height: 50px;
@@ -623,7 +644,6 @@ footer h2 {
     }
 
     .entrer h1 {
-        margin-top: 35px;
         font-size: 22px;
     }
 
